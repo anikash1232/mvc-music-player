@@ -10,6 +10,4 @@ public interface Controller {
     void addSong(String title, String artist, int rating);
 
     void removeSong(int index);
-
-    void shuffleSongs();
 }

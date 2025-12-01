@@ -9,7 +9,6 @@ public interface Model {
     void addSong(Song song);
     void removeSong(int index);
     void moveSong(int oldIdx, int newIdx);
-    void shuffleSongs();
 
     //observers
     void addObserver(ModelObserver observer);
