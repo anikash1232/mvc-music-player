@@ -3,8 +3,6 @@ package org.comp301.spotify.mvcspotify.Controller;
 import org.comp301.spotify.mvcspotify.Model.Song;
 
 public interface Controller {
-    Song getSong(int index);
-
     void moveSongUp(int index);
 
     void moveSongDown(int index);
