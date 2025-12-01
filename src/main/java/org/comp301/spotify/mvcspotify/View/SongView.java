@@ -46,7 +46,9 @@ public class SongView implements FXComponent {
                 + ") "
                 + getStars(this.model.getSong(this.song_index).getRating()));
 
-    return null;
+    layout.getChildren().addAll(deleteButton, upButton, downButton, songInfo);
+
+    return layout;
   }
 
   private StringBuilder getStars(int rating) {
